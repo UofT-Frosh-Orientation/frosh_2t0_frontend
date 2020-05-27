@@ -9,6 +9,7 @@ import instagramIcon from "./assets/instagram.svg"
 import snapchatIcon from "./assets/snapchat.svg"
 import twitterIcon from "./assets/twitter.svg"
 import youtubeIcon from "./assets/youtube.svg"
+import {Link} from 'react-router-dom';
 
 class NavbarComponent extends Component {
   render() {
@@ -21,10 +22,14 @@ class NavbarComponent extends Component {
         <Navbar.Toggle aria-controls="navbar-id" class="sticky-top"/>
       </div>
       <Navbar.Collapse id="navbar-id" className="justify-content-center">
-        <div class="navbarLink navbarSelected"><Nav.Link href="#Home">Home</Nav.Link></div>
+        {/* <div class="navbarLink navbarSelected"><Nav.Link href="#Home">Home</Nav.Link></div>
         <div class="navbarLink"><Nav.Link href="#Registration">Registration</Nav.Link></div>
         <div class="navbarLink"><Nav.Link href="#AboutUsn">About Us</Nav.Link></div>
-        <div class="navbarLink"><Nav.Link href="#ContactUs">Contact Us</Nav.Link></div>
+        <div class="navbarLink"><Nav.Link href="#ContactUs">Contact Us</Nav.Link></div> */}
+        <div class="navbarLink navbarSelected"><Link to='/'>Home</Link></div>
+        <div class="navbarLink"><Link to="/register">Registration</Link></div>
+        <div class="navbarLink"><Link to="/about">About Us</Link></div>
+        <div class="navbarLink"><Link to="/contact">Contact Us</Link></div>
       </Navbar.Collapse>
         <div class="navbarSocialsContainer">
           <img src={instagramIcon} alt="Instagram"></img>

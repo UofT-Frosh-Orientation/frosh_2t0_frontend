@@ -22,6 +22,10 @@ h1 {
     /* border: 1px solid black; */
 }
 
+#announceContainer {
+    margin: 3.75rem 0;
+}
+
 h1.section-title {
     width: 35%;
     margin: 2.5rem auto;
@@ -195,7 +199,7 @@ button.scroll-buttons {
 ul.socials {
     list-style-type: none;
     width: 10rem;
-    margin: 0 auto;
+    margin: 1.25rem auto;
     padding: 0;
 }
 

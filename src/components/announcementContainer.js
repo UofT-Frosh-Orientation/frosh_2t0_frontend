@@ -49,12 +49,12 @@ function AnnouncementContainer() {
         setOverlayPara(elem.announcement);
         setOverlayImg(elem.image);
         setOverlayDisplay("block");
-        document.getElementById("homeContainer").style.filter = "blur(10px)";
+        document.getElementById("announceContainer").style.filter = "blur(10px)";
     }
 
     function handleCloseOverlay(){
         setOverlayDisplay("none");
-        document.getElementById("homeContainer").style.filter = "none";
+        document.getElementById("announceContainer").style.filter = "none";
     }
 
     function scrollRight() {
@@ -79,7 +79,8 @@ function AnnouncementContainer() {
                 imageSource = {overlayImg}
                 closeOverlay = {handleCloseOverlay}
                 />
-            <div id="homeContainer" style={{transition: "0.2s ease-in-out"}}>
+            <br/><br/>
+            <div id="announceContainer" style={{transition: "0.2s ease-in-out"}}>
                 <h1 className="section-title"> Announcements </h1>
                 <div style={{ width: '80%', margin: 'auto'}}> 
                     <Container>
