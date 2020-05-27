@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './navbar.css'
+import '../css/components/navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Jumbotron, Button, Navbar, Nav, NavDropdown,Form,FormControl} from 'react-bootstrap';
 import navbarIcon from "./assets/2T0Logo.svg"

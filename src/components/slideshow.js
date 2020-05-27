@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './slideshow.css'
+import '../css/components/slideshow.css'
 import {Jumbotron, Button, Carousel} from 'react-bootstrap';
 
 class Slideshow extends Component {
