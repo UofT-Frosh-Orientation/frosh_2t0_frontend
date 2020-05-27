@@ -1,0 +1,37 @@
+[
+    {
+        "title" : "Title 1",
+        "announcement" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eleifend convallis est non suscipit. Nam at feugiat nibh. Duis venenatis at massa non tempor. Nullam cursus enim in commodo rutrum. Fusce id magna rhoncus quam laoreet placerat ac sed tellus. Sed nec pulvinar magna. Vestibulum eget finibus quam. Fusce tempus euismod blandit. Fusce tempus euismod blandit.Fusce tempus euismod blandit.Fusce tempus euismod blandit.Fusce tempus euismod blandit.",
+        "image" : "bugbear.png"
+    },
+    {
+        "title" : "Title 2",
+        "announcement" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eleifend convallis est non suscipit. Nam at feugiat nibh. Duis venenatis at massa non tempor. Nullam cursus enim in commodo rutrum. Fusce id magna rhoncus quam laoreet placerat ac sed tellus. Sed nec pulvinar magna. Vestibulum eget finibus quam. Fusce tempus euismod blandit.",
+        "image" : "bugbear.png"
+    },
+    {
+        "title" : "Title 3",
+        "announcement" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eleifend convallis est non suscipit. Nam at feugiat nibh. Duis venenatis at massa non tempor. Nullam cursus enim in commodo rutrum. Fusce id magna rhoncus quam laoreet placerat ac sed tellus. Sed nec pulvinar magna. Vestibulum eget finibus quam. Fusce tempus euismod blandit.",
+        "image" : "bugbear.png"
+    },
+    {
+        "title" : "Title 4",
+        "announcement" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eleifend convallis est non suscipit. Nam at feugiat nibh. Duis venenatis at massa non tempor. Nullam cursus enim in commodo rutrum. Fusce id magna rhoncus quam laoreet placerat ac sed tellus. Sed nec pulvinar magna. Vestibulum eget finibus quam. Fusce tempus euismod blandit.",
+        "image" : "bugbear.png"
+    },
+    {
+        "title" : "Title 5",
+        "announcement" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eleifend convallis est non suscipit. Nam at feugiat nibh. Duis venenatis at massa non tempor. Nullam cursus enim in commodo rutrum. Fusce id magna rhoncus quam laoreet placerat ac sed tellus. Sed nec pulvinar magna. Vestibulum eget finibus quam. Fusce tempus euismod blandit.",
+        "image" : "bugbear.png"
+    },
+    {
+        "title" : "Title 6",
+        "announcement" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eleifend convallis est non suscipit. Nam at feugiat nibh. Duis venenatis at massa non tempor. Nullam cursus enim in commodo rutrum. Fusce id magna rhoncus quam laoreet placerat ac sed tellus. Sed nec pulvinar magna. Vestibulum eget finibus quam. Fusce tempus euismod blandit.",
+        "image" : "bugbear.png"
+    },
+    {
+        "title" : "Title 7",
+        "announcement" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut eleifend convallis est non suscipit. Nam at feugiat nibh. Duis venenatis at massa non tempor. Nullam cursus enim in commodo rutrum. Fusce id magna rhoncus quam laoreet placerat ac sed tellus. Sed nec pulvinar magna. Vestibulum eget finibus quam. Fusce tempus euismod blandit.",
+        "image" : "bugbear.png"
+    }
+]
