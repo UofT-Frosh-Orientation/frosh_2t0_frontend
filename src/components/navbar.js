@@ -22,14 +22,10 @@ class NavbarComponent extends Component {
         <Navbar.Toggle aria-controls="navbar-id" class="sticky-top"/>
       </div>
       <Navbar.Collapse id="navbar-id" className="justify-content-center">
-        {/* <div class="navbarLink navbarSelected"><Nav.Link href="#Home">Home</Nav.Link></div>
-        <div class="navbarLink"><Nav.Link href="#Registration">Registration</Nav.Link></div>
-        <div class="navbarLink"><Nav.Link href="#AboutUsn">About Us</Nav.Link></div>
-        <div class="navbarLink"><Nav.Link href="#ContactUs">Contact Us</Nav.Link></div> */}
-        <div class="navbarLink navbarSelected"><Link to='/'>Home</Link></div>
-        <div class="navbarLink"><Link to="/register">Registration</Link></div>
-        <div class="navbarLink"><Link to="/about">About Us</Link></div>
-        <div class="navbarLink"><Link to="/contact">Contact Us</Link></div>
+        <div class="navbarLink navbarSelected"><Nav.Link href="/home">Home</Nav.Link></div>
+        <div class="navbarLink"><Nav.Link href="/register">Registration</Nav.Link></div>
+        <div class="navbarLink"><Nav.Link href="/about">About Us</Nav.Link></div>
+        <div class="navbarLink"><Nav.Link href="/contact">Contact Us</Nav.Link></div>
       </Navbar.Collapse>
         <div class="navbarSocialsContainer">
           <img src={instagramIcon} alt="Instagram"></img>
