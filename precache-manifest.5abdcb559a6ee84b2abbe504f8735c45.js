@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7126b35ba1c68651920142e7bfa4c42",
+    "revision": "54fee68379449fd13ef1b7dc33edef7c",
     "url": "/frosh_2t0_frontend/index.html"
   },
   {
-    "revision": "2f0592825e47755d01dd",
+    "revision": "a49bcc104c8bd56ba252",
     "url": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "aa11624cfcdfb67a5f4e",
+    "revision": "269262b6e13096116f17",
     "url": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css"
   },
   {
-    "revision": "2f0592825e47755d01dd",
-    "url": "/frosh_2t0_frontend/static/js/2.d5580be2.chunk.js"
+    "revision": "a49bcc104c8bd56ba252",
+    "url": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/frosh_2t0_frontend/static/js/2.d5580be2.chunk.js.LICENSE.txt"
+    "url": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa11624cfcdfb67a5f4e",
-    "url": "/frosh_2t0_frontend/static/js/main.a3dd8b8f.chunk.js"
+    "revision": "269262b6e13096116f17",
+    "url": "/frosh_2t0_frontend/static/js/main.16dcb2dd.chunk.js"
   },
   {
     "revision": "a40ecfd46ed230a471df",
