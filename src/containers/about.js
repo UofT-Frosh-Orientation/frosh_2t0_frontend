@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
+import AboutLanding from '../components/aboutLanding';
+import AboutSection from '../components/aboutSection';
 
 export default class About extends Component {
   render() { 
     return (
       <div className="about">
-        <h4>
-            This website is still under construction, please email web@orientation.skule.ca if 
-            you have any inquiries or suggestions for this page
-        </h4>
+        <AboutLanding/>
+        <span id="aboutSection"/>
+        <br/><br/>
+        <AboutSection section="about"/>
+        <hr/>
+        <AboutSection section="team"/>
+        <hr/>
+        <AboutSection section="web"/>
       </div>
     )
   }

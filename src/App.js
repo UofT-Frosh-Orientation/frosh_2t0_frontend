@@ -3,7 +3,7 @@ import './App.css';
 import NavbarComponent from './components/navbar.js';
 import Footer from './components/footer.js';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route} from 'react-router-dom';
 import Home from './containers/home';
@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <Router>
         <NavbarComponent/>
-          <div class="container">
+          <div className="container">
             <Switch>
               <Route path="/" exact component={Home}/>
               <Route path="/about" exact component={About}/>
