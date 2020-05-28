@@ -32,9 +32,6 @@ class NavbarComponent extends Component {
           <img src={snapchatIcon} alt="Snapchat"></img>
           <img src={facebookIcon} alt="Facebook"></img>
         </div>
-      
-
-      
     </Navbar>
 
     )
