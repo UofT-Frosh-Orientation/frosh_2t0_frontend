@@ -22,7 +22,7 @@ class NavbarComponent extends Component {
         <Navbar.Toggle aria-controls="navbar-id" class="sticky-top"/>
       </div>
       <Navbar.Collapse id="navbar-id" className="justify-content-center">
-        <div class="navbarLink navbarSelected"><Nav.Link href="/home">Home</Nav.Link></div>
+        <div class="navbarLink navbarSelected"><Nav.Link href="/">Home</Nav.Link></div>
         <div class="navbarLink"><Nav.Link href="/register">Registration</Nav.Link></div>
         <div class="navbarLink"><Nav.Link href="/about">About Us</Nav.Link></div>
         <div class="navbarLink"><Nav.Link href="/contact">Contact Us</Nav.Link></div>
