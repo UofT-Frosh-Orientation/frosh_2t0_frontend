@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css",
-    "main.js": "/frosh_2t0_frontend/static/js/main.4d25750e.chunk.js",
-    "main.js.map": "/frosh_2t0_frontend/static/js/main.4d25750e.chunk.js.map",
+    "main.js": "/frosh_2t0_frontend/static/js/main.e6f06257.chunk.js",
+    "main.js.map": "/frosh_2t0_frontend/static/js/main.e6f06257.chunk.js.map",
     "runtime-main.js": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js",
     "runtime-main.js.map": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js.map",
     "static/css/2.af3c1da9.chunk.css": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.58a9d78c.chunk.js": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js",
-    "static/js/2.58a9d78c.chunk.js.map": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js.map",
+    "static/js/2.399de5b5.chunk.js": "/frosh_2t0_frontend/static/js/2.399de5b5.chunk.js",
+    "static/js/2.399de5b5.chunk.js.map": "/frosh_2t0_frontend/static/js/2.399de5b5.chunk.js.map",
     "index.html": "/frosh_2t0_frontend/index.html",
-    "precache-manifest.ef5ec3c6fc9fee5eafa6d95fd09472b5.js": "/frosh_2t0_frontend/precache-manifest.ef5ec3c6fc9fee5eafa6d95fd09472b5.js",
+    "precache-manifest.eda1f30342bc6c9335273514d7b48448.js": "/frosh_2t0_frontend/precache-manifest.eda1f30342bc6c9335273514d7b48448.js",
     "service-worker.js": "/frosh_2t0_frontend/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.1939f846.chunk.css.map": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css.map",
-    "static/js/2.58a9d78c.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js.LICENSE.txt",
+    "static/js/2.399de5b5.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.399de5b5.chunk.js.LICENSE.txt",
     "static/media/2T0Logo.svg": "/frosh_2t0_frontend/static/media/2T0Logo.dc9c5028.svg",
     "static/media/blog.svg": "/frosh_2t0_frontend/static/media/blog.84d63387.svg",
     "static/media/bugbear.png": "/frosh_2t0_frontend/static/media/bugbear.f7f8984f.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.aa172ed4.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.58a9d78c.chunk.js",
+    "static/js/2.399de5b5.chunk.js",
     "static/css/main.1939f846.chunk.css",
-    "static/js/main.4d25750e.chunk.js"
+    "static/js/main.e6f06257.chunk.js"
   ]
 }
