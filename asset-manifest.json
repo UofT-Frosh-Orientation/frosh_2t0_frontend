@@ -1,33 +1,36 @@
 {
   "files": {
-    "main.css": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css",
-    "main.js": "/frosh_2t0_frontend/static/js/main.9708e4c7.chunk.js",
-    "main.js.map": "/frosh_2t0_frontend/static/js/main.9708e4c7.chunk.js.map",
+    "main.css": "/frosh_2t0_frontend/static/css/main.7cf7353c.chunk.css",
+    "main.js": "/frosh_2t0_frontend/static/js/main.a49d1b5a.chunk.js",
+    "main.js.map": "/frosh_2t0_frontend/static/js/main.a49d1b5a.chunk.js.map",
     "runtime-main.js": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js",
     "runtime-main.js.map": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js.map",
     "static/css/2.af3c1da9.chunk.css": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4b14f981.chunk.js": "/frosh_2t0_frontend/static/js/2.4b14f981.chunk.js",
-    "static/js/2.4b14f981.chunk.js.map": "/frosh_2t0_frontend/static/js/2.4b14f981.chunk.js.map",
+    "static/js/2.f4f8456d.chunk.js": "/frosh_2t0_frontend/static/js/2.f4f8456d.chunk.js",
+    "static/js/2.f4f8456d.chunk.js.map": "/frosh_2t0_frontend/static/js/2.f4f8456d.chunk.js.map",
     "index.html": "/frosh_2t0_frontend/index.html",
-    "precache-manifest.93b04111ca0bdfca0a7f58d407459555.js": "/frosh_2t0_frontend/precache-manifest.93b04111ca0bdfca0a7f58d407459555.js",
+    "precache-manifest.04507112fee339cea1ed625b4463a7f1.js": "/frosh_2t0_frontend/precache-manifest.04507112fee339cea1ed625b4463a7f1.js",
     "service-worker.js": "/frosh_2t0_frontend/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.1939f846.chunk.css.map": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css.map",
-    "static/js/2.4b14f981.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.4b14f981.chunk.js.LICENSE.txt",
-    "static/media/2T0Logo.svg": "/frosh_2t0_frontend/static/media/2T0Logo.dc9c5028.svg",
+    "static/css/main.7cf7353c.chunk.css.map": "/frosh_2t0_frontend/static/css/main.7cf7353c.chunk.css.map",
+    "static/js/2.f4f8456d.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.f4f8456d.chunk.js.LICENSE.txt",
     "static/media/blog.svg": "/frosh_2t0_frontend/static/media/blog.84d63387.svg",
     "static/media/bugbear.png": "/frosh_2t0_frontend/static/media/bugbear.f7f8984f.png",
+    "static/media/down-arrow.svg": "/frosh_2t0_frontend/static/media/down-arrow.e514c922.svg",
     "static/media/facebook.svg": "/frosh_2t0_frontend/static/media/facebook.34e73505.svg",
     "static/media/instagram.svg": "/frosh_2t0_frontend/static/media/instagram.6c6931f4.svg",
+    "static/media/landing-image.png": "/frosh_2t0_frontend/static/media/landing-image.6a6b77b0.png",
+    "static/media/main_logo_transparent.png": "/frosh_2t0_frontend/static/media/main_logo_transparent.b1f4e966.png",
     "static/media/snapchat.svg": "/frosh_2t0_frontend/static/media/snapchat.0fdb4aab.svg",
+    "static/media/space.png": "/frosh_2t0_frontend/static/media/space.635d0eea.png",
     "static/media/twitter.svg": "/frosh_2t0_frontend/static/media/twitter.a1223de5.svg",
     "static/media/youtube.svg": "/frosh_2t0_frontend/static/media/youtube.ed4ab1c1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa172ed4.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.4b14f981.chunk.js",
-    "static/css/main.1939f846.chunk.css",
-    "static/js/main.9708e4c7.chunk.js"
+    "static/js/2.f4f8456d.chunk.js",
+    "static/css/main.7cf7353c.chunk.css",
+    "static/js/main.a49d1b5a.chunk.js"
   ]
 }
