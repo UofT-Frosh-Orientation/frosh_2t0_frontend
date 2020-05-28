@@ -5,7 +5,8 @@
 }
 
 .slideshowBG{
-    background-color: rgba(63, 63, 63, 0.459);
+    background-color: teal;
+    background-image: url('/assets/space.png');
     width: 100vw;
     height: 100vh;
 }
@@ -25,9 +26,9 @@
     background-image: linear-gradient(to right, #FFC112,#FFC112, #6015a5, #6015a5);
     background-size:300%;
     text-align: center;
-    font-size: calc(7px + 0.75vw);
+    font-size: calc(8px + 1vw);
     color: #6F1E88;
-    border-radius: 5vw;
+    border-radius: 1vw;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 2.3%;
@@ -37,6 +38,10 @@
     box-shadow: 0 0.2vw 0.5vw 0 #00000066;
     cursor: pointer;
     user-select: none;
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .slideshowButton:hover{
@@ -48,4 +53,26 @@
 .slideshowButton:active{
     transition: box-shadow 0.1s;
     box-shadow: 0 0.2vw 0.5vw 0 #00000000;
+}
+
+.slideshowText{
+    filter: drop-shadow(0.3vw 0.3vw 0.2vw rgba(0, 0, 0, 0.384));
+    position: absolute;
+    color: #FFC112;
+    font-size: calc(20px + 5vw);
+    text-align: center;
+    width: 100%;
+    top: 29vh;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+@media only screen and (max-width: 767px) {
+    .slideshowText{
+        width: 50%;
+    }
+    .slideshowButton {
+        font-size: calc(16px);
+        top: 65vh;
+    }
 }
