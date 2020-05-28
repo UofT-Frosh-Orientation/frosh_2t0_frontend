@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import '../css/components/navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Jumbotron, Button, Navbar, Nav, NavItem, NavDropdown,Form,FormControl} from 'react-bootstrap';
-import navbarIcon from "./assets/2T0Logo.svg"
+// import navbarIcon from "./assets/2T0Logo.svg"
+import navbarIcon from "./assets/main_logo_transparent.png"
 import blogIcon from "./assets/blog.svg"
 import facebookIcon from "./assets/facebook.svg"
 import instagramIcon from "./assets/instagram.svg"
