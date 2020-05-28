@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54fee68379449fd13ef1b7dc33edef7c",
+    "revision": "d269001ab5d455bfc33882b0697b09ad",
     "url": "/frosh_2t0_frontend/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "269262b6e13096116f17",
+    "revision": "a8b28772589c50769614",
     "url": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "269262b6e13096116f17",
-    "url": "/frosh_2t0_frontend/static/js/main.16dcb2dd.chunk.js"
+    "revision": "a8b28772589c50769614",
+    "url": "/frosh_2t0_frontend/static/js/main.4d25750e.chunk.js"
   },
   {
     "revision": "a40ecfd46ed230a471df",

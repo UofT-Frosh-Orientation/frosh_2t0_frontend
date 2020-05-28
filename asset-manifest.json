@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css",
-    "main.js": "/frosh_2t0_frontend/static/js/main.16dcb2dd.chunk.js",
-    "main.js.map": "/frosh_2t0_frontend/static/js/main.16dcb2dd.chunk.js.map",
+    "main.js": "/frosh_2t0_frontend/static/js/main.4d25750e.chunk.js",
+    "main.js.map": "/frosh_2t0_frontend/static/js/main.4d25750e.chunk.js.map",
     "runtime-main.js": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js",
     "runtime-main.js.map": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js.map",
     "static/css/2.af3c1da9.chunk.css": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css",
     "static/js/2.58a9d78c.chunk.js": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js",
     "static/js/2.58a9d78c.chunk.js.map": "/frosh_2t0_frontend/static/js/2.58a9d78c.chunk.js.map",
     "index.html": "/frosh_2t0_frontend/index.html",
-    "precache-manifest.5abdcb559a6ee84b2abbe504f8735c45.js": "/frosh_2t0_frontend/precache-manifest.5abdcb559a6ee84b2abbe504f8735c45.js",
+    "precache-manifest.ef5ec3c6fc9fee5eafa6d95fd09472b5.js": "/frosh_2t0_frontend/precache-manifest.ef5ec3c6fc9fee5eafa6d95fd09472b5.js",
     "service-worker.js": "/frosh_2t0_frontend/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.1939f846.chunk.css.map": "/frosh_2t0_frontend/static/css/main.1939f846.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.58a9d78c.chunk.js",
     "static/css/main.1939f846.chunk.css",
-    "static/js/main.16dcb2dd.chunk.js"
+    "static/js/main.4d25750e.chunk.js"
   ]
 }
