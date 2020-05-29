@@ -72,6 +72,18 @@
     right:1.6vw;
 }
 
+.navbarTitle{
+    position: absolute;
+    color: #6F1E88;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: Azonix;
+    display:none;
+}
+
 @media only screen and (min-width: 1080px) {
     .navbarIcon{
         width: 55px;
@@ -97,6 +109,10 @@
     .navbarIcon{
         width: 40px;
     }
+
+    .navbarTitle{
+        display:inline-block;
+    }
 }
 
 .navbarSocialsContainer img{
@@ -116,3 +132,4 @@
         transform: translate(0px, 0vw);
     }
 }
+

@@ -15,7 +15,7 @@ import {Link} from 'react-router-dom';
 class NavbarComponent extends Component {
   render() {
     return (
-    <Navbar bg="light" expand="md" fixed="top" >
+    <Navbar expand="md" fixed="top" >
       <Navbar.Brand style={{position: 'absolute'}} >
         <Link to="/">
           <img src={navbarIcon} className="d-inline-block align-top" alt="Frosh Week Icon" width="30" height="30"/>
@@ -24,6 +24,9 @@ class NavbarComponent extends Component {
       <div className="sticky-top" style={{position: 'absolute', display: 'inline-block', float: 'right', right:'0vw'}}>
         <Navbar.Toggle aria-controls="navbar-id" className="sticky-top"/>
       </div>
+      <div className = "navbarTitle">
+          F!ROSH WEEK 2T0
+        </div>
       <Navbar.Collapse id="navbar-id" className="justify-content-center">
         <div className="navbarLink navbarSelected"><NavItem><Link to="/">Home</Link></NavItem></div>
         <div className="navbarLink"><NavItem><Link to="/register">Registration</Link></NavItem></div>
