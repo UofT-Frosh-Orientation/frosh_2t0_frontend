@@ -1,6 +1,43 @@
 @font-face {
   font-family: 'Azonix';
+  font-weight: normal;
   src: url(./fonts/Azonix.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Aquire-Light';
+  font-weight: lighter;
+  src: url(./fonts/Aquire-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Aquire-Bold';
+  font-weight: bold;
+  src: url(./fonts/Aquire-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Aquire';
+  font-weight: normal;
+  src: url(./fonts/Aquire.otf) format("opentype");
+}
+
+@font-face{
+  font-family: 'AvenirLTStd-Roman';
+  font-weight: normal;
+  src: url(./fonts/AvenirLTStd-Roman.otf) format("opentype");
+}
+
+@font-face{
+  font-family: 'AvenirLTStd-Black';
+  font-weight: bold;
+  src: url(./fonts/AvenirLTStd-Black.otf) format("opentype");
+}
+
+@font-face{
+  font-family: 'AvenirLTStd-Book';
+  font-weight: normal;
+  src: url(./fonts/AvenirLTStd-Book.otf) format("opentype");
 }
 
 body {

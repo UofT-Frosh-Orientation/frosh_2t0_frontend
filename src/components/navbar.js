@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import '../css/components/navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Jumbotron, Button, Navbar, Nav, NavItem, NavDropdown,Form,FormControl} from 'react-bootstrap';
-// import navbarIcon from "./assets/2T0Logo.svg"
 import navbarIcon from "./assets/main_logo_transparent.png"
 import blogIcon from "./assets/blog.svg"
 import facebookIcon from "./assets/facebook.svg"
@@ -18,15 +17,15 @@ class NavbarComponent extends Component {
     <Navbar expand="md" fixed="top" >
       <Navbar.Brand style={{position: 'absolute'}} >
         <Link to="/">
-          <img src={navbarIcon} className="d-inline-block align-top" alt="Frosh Week Icon" width="30" height="30"/>
+          <img src={navbarIcon} className="d-inline-block align-top navbarIcon" alt="Frosh Week Icon"/>
         </Link>
       </Navbar.Brand>
       <div className="sticky-top" style={{position: 'absolute', display: 'inline-block', float: 'right', right:'0vw'}}>
         <Navbar.Toggle aria-controls="navbar-id" className="sticky-top"/>
       </div>
       <div className = "navbarTitle">
-          F!ROSH WEEK 2T0
-        </div>
+        F!ROSH WEEK 2T0
+      </div>
       <Navbar.Collapse id="navbar-id" className="justify-content-center">
         <div className="navbarLink navbarSelected"><NavItem><Link to="/">Home</Link></NavItem></div>
         <div className="navbarLink"><NavItem><Link to="/register">Registration</Link></NavItem></div>
@@ -34,9 +33,9 @@ class NavbarComponent extends Component {
         <div className="navbarLink"><NavItem><Link to="/contact">Contact Us</Link></NavItem></div>
       </Navbar.Collapse>
         <div className="navbarSocialsContainer">
-          <img src={instagramIcon} alt="Instagram"></img>
+          <a href="https://www.instagram.com/froshweek/"><img src={instagramIcon} alt="Instagram"></img></a>
           <img src={snapchatIcon} alt="Snapchat"></img>
-          <img src={facebookIcon} alt="Facebook"></img>
+          <a href="https://www.facebook.com/froshweekuofteng"><img src={facebookIcon} alt="Facebook"></img></a>
         </div>      
     </Navbar>
 

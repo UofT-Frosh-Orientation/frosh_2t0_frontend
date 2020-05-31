@@ -57,6 +57,7 @@
     animation: fadeIn 2s forwards;
     animation-delay: 2s;
     opacity: 0;
+    font-family: AvenirLTStd-Black;
 }
 
 .slideshowButton:hover{
@@ -81,7 +82,7 @@
     transform: translate(-50%, 0%);
     animation: flyIn 3s forwards;
     animation-delay: -1.8s;
-    font-family: Azonix;
+    font-family: Aquire;
 }
 
 @media only screen and (max-width: 767px) {

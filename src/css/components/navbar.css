@@ -1,11 +1,11 @@
 .navbar{
     animation: dropDown 3s forwards;
     animation-delay: 0s;
-    background-color: #EBEBEB;
+    background-color: rgba(255, 255, 255, 0.651);
     width: 100vw;
-    min-height:40px;
+    min-height: 40px;
     filter: drop-shadow(0px 0.2vw 0.4vw #00000083);
-
+    backdrop-filter: blur(12px);
 }
 
 .navbarIcon{
@@ -42,6 +42,7 @@
     border: 2px solid transparent;
     transition: border 0.5s;
     text-decoration: none;
+    font-family: AvenirLTStd-Roman;
 }
 
 .navbarSelected a{
@@ -72,15 +73,20 @@
     right:1.6vw;
 }
 
+.navbarSocialsContainer a:hover{
+    transition: filter 0.2s;
+    filter: drop-shadow(0.1vw 0.1vw 0.5vw rgba(111, 30, 136, 0.479));
+}
+
 .navbarTitle{
-    position: absolute;
+    position: relative;
     color: #6F1E88;
     font-size: 20px;
     text-align: center;
     width: 100%;
     left: 50%;
     transform: translate(-50%, 0%);
-    font-family: Azonix;
+    font-family: Aquire;
     display:none;
 }
 
@@ -91,6 +97,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .blur{
+        height:46px;
+    }
+
     .navbarSocialsContainer{
         display: flex;
         align-items: center;
