@@ -70,7 +70,7 @@
     flex-flow: row wrap;
     position: absolute;
     float: right;
-    right:1.6vw;
+    right:30px;
 }
 
 .navbarSocialsContainer a:hover{

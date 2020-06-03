@@ -7,7 +7,6 @@ class SlideshowOverlay extends Component {
   render() {
     return (
       <div>
-        
         <div className="slideshowButton">
           Sign Up Now!
         </div>

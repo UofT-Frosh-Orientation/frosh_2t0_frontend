@@ -20,7 +20,7 @@ import {Jumbotron, Button, Carousel} from 'react-bootstrap';
 class Slideshow extends Component {
   render() {
     return (
-        <Carousel interval={5000}>
+        <Carousel interval={5000} >
             <Carousel.Item>
                 <div className="slideshowBG">
                     <div className="animateShip1"><img src={layer1}/></div>

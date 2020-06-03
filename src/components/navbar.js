@@ -31,10 +31,10 @@ class NavbarComponent extends Component {
         <div className="navbarLink"><NavItem><Link to="/register">Registration</Link></NavItem></div>
         <div className="navbarLink"><NavItem><Link to="/about">About Us</Link></NavItem></div>
         <div className="navbarLink"><NavItem><Link to="/contact">Contact Us</Link></NavItem></div>
+        <div className="navbarLink"><NavItem><Link to="/outreach">Outreach</Link></NavItem></div>
       </Navbar.Collapse>
         <div className="navbarSocialsContainer">
           <a href="https://www.instagram.com/froshweek/"><img src={instagramIcon} alt="Instagram"></img></a>
-          <img src={snapchatIcon} alt="Snapchat"></img>
           <a href="https://www.facebook.com/froshweekuofteng"><img src={facebookIcon} alt="Facebook"></img></a>
         </div>      
     </Navbar>
