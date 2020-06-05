@@ -12,7 +12,23 @@ import youtubeIcon from "./assets/youtube.svg"
 import {Link} from 'react-router-dom';
 
 class NavbarComponent extends Component {
+
   render() {
+    let homeSelect = "navbarLink", 
+        aboutSelect = "navbarLink", 
+        regSelect = "navbarLink", 
+        contactSelect = "navbarLink", 
+        outreachSelect = "navbarLink";
+
+    switch (this.props.page) {
+      case "home": homeSelect += " navbarSelected"; break;
+      case "about": aboutSelect += " navbarSelected"; break;
+      case "register": regSelect += " navbarSelected"; break;
+      case "contact": contactSelect += " navbarSelected"; break;
+      case "outreach": outreachSelect += " navbarSelected"; break;
+      default: break;
+    }
+
     return (
     <Navbar expand="md" fixed="top" >
       <Navbar.Brand style={{position: 'absolute'}} >
@@ -27,11 +43,13 @@ class NavbarComponent extends Component {
         F!ROSH WEEK 2T0
       </div>
       <Navbar.Collapse id="navbar-id" className="justify-content-center">
-        <div className="navbarLink navbarSelected"><NavItem><Link to="/">Home</Link></NavItem></div>
-        <div className="navbarLink"><NavItem><Link to="/register">Registration</Link></NavItem></div>
-        <div className="navbarLink"><NavItem><Link to="/about">About Us</Link></NavItem></div>
-        <div className="navbarLink"><NavItem><Link to="/contact">Contact Us</Link></NavItem></div>
-        <div className="navbarLink"><NavItem><Link to="/outreach">Outreach</Link></NavItem></div>
+
+        <div className={homeSelect} ><NavItem><Link to="/">Home</Link></NavItem></div>
+        <div className={regSelect}><NavItem><Link to="/register">Registration</Link></NavItem></div>
+        <div className={aboutSelect}><NavItem><Link to="/about">About Us</Link></NavItem></div>
+        <div className={contactSelect}><NavItem><Link to="/contact">Contact Us</Link></NavItem></div>
+        <div className={outreachSelect}><NavItem><Link to="/outreach">Outreach</Link></NavItem></div>
+
       </Navbar.Collapse>
         <div className="navbarSocialsContainer">
           <a href="https://www.instagram.com/froshweek/"><img src={instagramIcon} alt="Instagram"></img></a>

@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import AnnouncementContainer from '../components/announcementContainer';
 import Slideshow from '../components/slideshow';
 import SlideshowOverlay from '../components/slideshowOverlay';
+import NavbarComponent from '../components/navbar';
 
 export default class Home extends Component {
   render() { 
     return (
-      <div className="home">
-        <Slideshow/>
-        <SlideshowOverlay/>
-        <AnnouncementContainer/>
+      <div>
+        <NavbarComponent page="home"/>
+        <div className="home">
+          <Slideshow/>
+          <SlideshowOverlay/>
+          <AnnouncementContainer/>
+        </div>
       </div>
     )
   }

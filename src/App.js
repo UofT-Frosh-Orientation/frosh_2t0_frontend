@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavbarComponent from './components/navbar.js';
+// import NavbarComponent from './components/navbar.js';
 import Footer from './components/footer.js';
 import {
   HashRouter as Router,
@@ -16,16 +16,15 @@ class App extends Component {
   render() { 
     return (
       <Router>
-        <NavbarComponent/>
-          <div className="container">
-            <Switch>
-              <Route path="/" exact component={Home}/>
-              <Route path="/about" exact component={About}/>
-              <Route path="/contact" exact component={Contact}/>
-              <Route path="/register" exact component={Register}/>
-              <Route path="/outreach" exact component={Outreach}/>
-            </Switch>
-          </div>
+        <div className="container">
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/about" exact component={About}/>
+            <Route path="/contact" exact component={Contact}/>
+            <Route path="/register" exact component={Register}/>
+            <Route path="/outreach" exact component={Outreach}/>
+          </Switch>
+        </div>
         <Footer/>
       </Router>
     )
