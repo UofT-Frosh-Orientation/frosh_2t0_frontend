@@ -1,0 +1,65 @@
+:root {
+    --primary-colour: #6F1E88;
+    --text-colour: #707070;
+    --secondary-color: #FFC112;
+}
+
+.register {
+    margin: 6.75rem 4.25rem;
+    font-family: 'Century Gothic';
+}
+
+.register h1 {
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 1.25rem;
+}
+
+.register h3 {
+    text-align: center;
+    border-bottom: 3px solid var(--primary-colour);
+    margin-bottom: 1.5rem;
+}
+
+.inputField, .buttonField{
+    position: relative;
+    margin: 0.75rem 0;
+    width: 75%;
+}
+
+.inputField input, .inputField select {
+    position: absolute;
+    right: 0;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 5px;
+    height: 90%;
+    width: 50%;
+    color: rgb(255, 187, 0);
+    transition: 0.1s ease-in;
+    text-align: right;
+}
+
+.inputField input:focus,
+.inputField input:hover,
+.inputField select:focus,
+.inputField select:hover {
+    background-color: rgb(253, 238, 196);
+    outline: rgb(255, 187, 0);
+}
+
+.inputField label {
+    color: var(--primary-colour);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.buttonField input {
+    position: absolute;
+    right: 0;
+    background-color: var(--primary-colour);
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border: none;
+}
