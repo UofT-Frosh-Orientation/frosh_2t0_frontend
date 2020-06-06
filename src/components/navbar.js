@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
 import '../css/components/navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Jumbotron, Button, Navbar, Nav, NavItem, NavDropdown,Form,FormControl} from 'react-bootstrap';
+import {Navbar, NavItem,Dropdown, DropdownButton} from 'react-bootstrap';
 import navbarIcon from "./assets/main_logo_transparent.png"
-import blogIcon from "./assets/blog.svg"
+// import blogIcon from "./assets/blog.svg"
 import facebookIcon from "./assets/facebook.svg"
 import instagramIcon from "./assets/instagram.svg"
-import snapchatIcon from "./assets/snapchat.svg"
-import twitterIcon from "./assets/twitter.svg"
-import youtubeIcon from "./assets/youtube.svg"
+// import snapchatIcon from "./assets/snapchat.svg"
+// import twitterIcon from "./assets/twitter.svg"
+// import youtubeIcon from "./assets/youtube.svg"
 import {Link} from 'react-router-dom';
 
 class NavbarComponent extends Component {
@@ -49,7 +49,12 @@ class NavbarComponent extends Component {
         <div className={aboutSelect}><NavItem><Link to="/about">About Us</Link></NavItem></div>
         <div className={contactSelect}><NavItem><Link to="/contact">Contact Us</Link></NavItem></div>
         <div className={outreachSelect}><NavItem><Link to="/outreach">Outreach</Link></NavItem></div>
-
+        <DropdownButton id="dropdownButton" title="Resources">
+          <Dropdown.Item href="/webcam-tutorial">Photography FAQ</Dropdown.Item>
+          <Dropdown.Item href="/nightlife">Nightlife</Dropdown.Item>
+          <Dropdown.Item href="/mhw">Mental Health & Wellness</Dropdown.Item>
+        </DropdownButton>
+        
       </Navbar.Collapse>
         <div className="navbarSocialsContainer">
           <a href="https://www.instagram.com/froshweek/"><img src={instagramIcon} alt="Instagram"></img></a>

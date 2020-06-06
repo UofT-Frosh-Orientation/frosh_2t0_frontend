@@ -43,7 +43,7 @@
 .inputField input:hover,
 .inputField select:focus,
 .inputField select:hover {
-    background-color: rgb(253, 238, 196);
+    background-color: rgb(253, 245, 223);
     outline: rgb(255, 187, 0);
 }
 
@@ -63,3 +63,5 @@
     padding: 0.25rem 0.5rem;
     border: none;
 }
+
+.buttonField input:hover{background-color: rgb(119, 68, 134);}

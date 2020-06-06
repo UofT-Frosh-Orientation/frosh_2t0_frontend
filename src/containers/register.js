@@ -4,6 +4,9 @@ import { Container, Row, Col } from 'react-grid-system';
 import '../css/components/register.css';
 
 export default class Register extends Component {
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
   render() { 
     return (
       <div>
