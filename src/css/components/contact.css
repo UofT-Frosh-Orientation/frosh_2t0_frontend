@@ -1,0 +1,79 @@
+.contactUs{
+    padding-top:0px;
+}
+
+
+.socialContainerLarge{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.socialIconLarge{
+    display: block;
+    width: 12vw;
+    height: 12vw;
+    transition: 0.5s;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.socialIconLarge img{
+    transform: translate(75%, 75%);
+    width:40%;
+    height:40%;
+    filter: invert(100%);
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+.socialIconLarge:hover{
+    transition: 0.5s;
+    width: 14.3vw;
+    height: 14.3vw;
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+}
+
+
+
+.emailContactHeader{
+    background-color: #EBEBEB;
+    padding-top: 1.3vh;
+    padding-bottom: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 2vw;
+    text-align: center;
+    font-size: calc(8px + 1vw);
+    font-family: AvenirLTStd-Black;
+    color: rgb(80, 80, 80);
+}
+
+.emailContact{
+    background-color: whitesmoke;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top:1.3vh;
+    padding-bottom: 1.3vh;
+    text-align: center;
+    font-size: calc(10px + 2vw);
+    color: #6F1E88;
+    font-family: AvenirLTStd-Black;
+    user-select: all;
+}
+
+@media only screen and (max-width: 767px) {
+    .socialIconLarge{
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    .socialIconLarge:hover{
+        width: 15vw;
+        height: 15vw;
+    }
+}

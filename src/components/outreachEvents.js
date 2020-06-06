@@ -7,9 +7,9 @@ class OutreachEvents extends Component {
 
     return (
       <div className="outreach">
-        <div className="outreachLandingImage">
+        <div className="landingImage">
           <p>Outreach</p>
-          <div className='outreachLandingImageOverlay'></div>
+          <div className='landingImageOverlay'></div>
           <img src="https://photos.smugmug.com/1T9-2T0/Frosh-Week/Frosh-Events/Cheer-off/i-gGx2t7W/0/41239513/XL/_IGP8970-XL.jpg"></img>
         </div>
         <div className="sectionTitleContainer">
