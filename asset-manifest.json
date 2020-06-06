@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frosh_2t0_frontend/static/css/main.e770edff.chunk.css",
+    "main.css": "/frosh_2t0_frontend/static/css/main.b34acd0f.chunk.css",
     "main.js": "/frosh_2t0_frontend/static/js/main.07d4722e.chunk.js",
     "main.js.map": "/frosh_2t0_frontend/static/js/main.07d4722e.chunk.js.map",
     "runtime-main.js": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js",
@@ -9,10 +9,10 @@
     "static/js/2.af10ba76.chunk.js": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js",
     "static/js/2.af10ba76.chunk.js.map": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js.map",
     "index.html": "/frosh_2t0_frontend/index.html",
-    "precache-manifest.5e26915a35f34636ac7e99111ccbd1e3.js": "/frosh_2t0_frontend/precache-manifest.5e26915a35f34636ac7e99111ccbd1e3.js",
+    "precache-manifest.287feb600ee14d339d4381169a065c20.js": "/frosh_2t0_frontend/precache-manifest.287feb600ee14d339d4381169a065c20.js",
     "service-worker.js": "/frosh_2t0_frontend/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.e770edff.chunk.css.map": "/frosh_2t0_frontend/static/css/main.e770edff.chunk.css.map",
+    "static/css/main.b34acd0f.chunk.css.map": "/frosh_2t0_frontend/static/css/main.b34acd0f.chunk.css.map",
     "static/js/2.af10ba76.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/frosh_2t0_frontend/static/media/1.2e54c9ef.svg",
     "static/media/10.svg": "/frosh_2t0_frontend/static/media/10.dadb2fd6.svg",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.aa172ed4.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.af10ba76.chunk.js",
-    "static/css/main.e770edff.chunk.css",
+    "static/css/main.b34acd0f.chunk.css",
     "static/js/main.07d4722e.chunk.js"
   ]
 }
