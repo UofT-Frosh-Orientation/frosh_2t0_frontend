@@ -7,9 +7,8 @@ import instagramIconLarge from "./assets/socialsLarge/instagram-brands.svg"
 import facebookIconLarge from "./assets/socialsLarge/facebook-brands.svg"
 
 
-class ContactUs extends Component {
+class ContactUsHeader extends Component {
   render() {
-
     return (
       <div className="contactUs">
         <div className="landingImage">
@@ -17,6 +16,15 @@ class ContactUs extends Component {
           <div className='landingImageOverlay'></div>
           <img src="https://photos.smugmug.com/1T9-2T0/Frosh-Week/Frosh-Events/Cheer-off/i-gGx2t7W/0/41239513/XL/_IGP8970-XL.jpg"></img>
         </div>
+      </div>
+    )
+  }
+}
+
+class ContactUsSocials extends Component {
+  render() {
+    return (
+      <div className="contactUs">
         <div className="sectionTitleContainer">
           <div className="sectionTitle">
               Social Media
@@ -43,7 +51,15 @@ class ContactUs extends Component {
             <img src={tiktokIconLarge} alt="TikTok"></img>
           </div>
         </div>
+      </div>
+    )
+  }
+}
 
+class ContactUsEmail extends Component {
+  render() {
+    return (
+      <div className="contactUs">
         <div className="sectionTitleContainer">
           <div className="sectionTitle">
               Inquiries and Questions
@@ -51,10 +67,16 @@ class ContactUs extends Component {
         </div>
         <div className="emailContactContainer">
           <div className="emailContactHeader">
-            Feel free to send us an email!
+            General inquiries:
           </div>
           <div className="emailContact">
-            help@orientation.skule.ca
+            froshweek@orientation.skule.ca
+          </div>
+          <div className="emailContactHeader">
+            Registration and tech support:
+          </div>
+          <div className="emailContact">
+            support@orientation.skule.ca
           </div>
         </div>
       </div>
@@ -62,5 +84,8 @@ class ContactUs extends Component {
   }
 }
 
-
-export default ContactUs;
+export {
+  ContactUsHeader,
+  ContactUsSocials,
+  ContactUsEmail,
+}

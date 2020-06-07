@@ -3,6 +3,7 @@ import AnnouncementContainer from '../components/announcementContainer';
 import Slideshow from '../components/slideshow';
 import SlideshowOverlay from '../components/slideshowOverlay';
 import NavbarComponent from '../components/navbar';
+import ScheduleContainer from '../components/schedule';
 
 export default class Home extends Component {
   render() { 
@@ -13,6 +14,7 @@ export default class Home extends Component {
           <Slideshow/>
           <SlideshowOverlay/>
           <AnnouncementContainer/>
+          <ScheduleContainer/>
         </div>
       </div>
     )

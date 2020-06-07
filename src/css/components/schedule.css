@@ -1,0 +1,107 @@
+.schedule{
+    width:100%;
+}
+
+.scheduleBreak{
+    padding-top: 2vh;
+}
+
+.scheduleContainer{
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scheduleTimeLabelContainer{
+    margin-top: 8vh;
+    padding-top: 1vh;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    background-color: #ebebeb79;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*    backdrop-filter: blur(15px); */
+
+.scheduleTimeLabel{
+    padding-bottom: 20vh;
+    padding-left: 15px;
+    padding-right: 50px;
+}
+
+.scheduleTimeLabel::after{
+    content: " ";
+    display: block;
+    z-index: -2;
+    position: absolute;
+    right: 0;
+    left: 65px;
+    background: #ebebeb;
+    width: 95vw;
+    height: 0.3vh;
+    transform: translateY(2vh);
+}
+
+.scheduleContainerDay{
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.scheduleDayTitle{
+    height: 12.1vh;
+    font-size: calc(18px + 1.3vw);
+    color: black;
+    font-family: AvenirLTStd-Black;
+    padding-bottom: 10px;
+}
+
+.scheduleEventContainer{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    background-color: #DCC7E3;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.scheduleEventTitle{
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    color:#6F1E88;
+    font-family: AvenirLTStd-Roman;
+    font-size: calc(15px + 1.3vw);
+    white-space: normal;
+    line-height: calc(17px + 1.3vw);
+}
+
+.scheduleEventDescription{
+    text-align: left;
+    font-size: 16px;
+    white-space: normal;
+    color:black;
+    position: absolute;
+}
+
+.scheduleEventTime{
+    position: absolute;
+    bottom:0;
+    padding-bottom: 14px;
+    color:#6F1E88;
+}
+
+.scheduleEventTime img{
+    width: 20px;
+    height:20px;
+    margin-right: 8px;
+}
+
+@media only screen and (min-width: 1250px) {
+    .scheduleContainerDay{
+        width: 20vw;
+    }
+}

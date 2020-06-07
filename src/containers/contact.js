@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ContactUs from '../components/contactUs';
+import {ContactUsHeader,ContactUsSocials,ContactUsEmail} from '../components/contactUs';
 import NavbarComponent from '../components/navbar';
 
 export default class Contact extends Component {
@@ -8,7 +8,9 @@ export default class Contact extends Component {
       <div>
         <NavbarComponent page="contact"/>
         <div className="contact">
-          <ContactUs/>
+          <ContactUsHeader/>
+          <ContactUsSocials/>
+          <ContactUsEmail/>
         </div>
       </div>
     )
