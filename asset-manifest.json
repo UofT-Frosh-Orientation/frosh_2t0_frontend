@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/frosh_2t0_frontend/static/css/main.b34acd0f.chunk.css",
-    "main.js": "/frosh_2t0_frontend/static/js/main.07d4722e.chunk.js",
-    "main.js.map": "/frosh_2t0_frontend/static/js/main.07d4722e.chunk.js.map",
+    "main.css": "/frosh_2t0_frontend/static/css/main.c4b0469e.chunk.css",
+    "main.js": "/frosh_2t0_frontend/static/js/main.a54544e3.chunk.js",
+    "main.js.map": "/frosh_2t0_frontend/static/js/main.a54544e3.chunk.js.map",
     "runtime-main.js": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js",
     "runtime-main.js.map": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js.map",
     "static/css/2.af3c1da9.chunk.css": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.af10ba76.chunk.js": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js",
-    "static/js/2.af10ba76.chunk.js.map": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js.map",
+    "static/js/2.8944001d.chunk.js": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js",
+    "static/js/2.8944001d.chunk.js.map": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js.map",
     "index.html": "/frosh_2t0_frontend/index.html",
-    "precache-manifest.287feb600ee14d339d4381169a065c20.js": "/frosh_2t0_frontend/precache-manifest.287feb600ee14d339d4381169a065c20.js",
+    "precache-manifest.5d53dcb0e33ff59d6c7cd77487ac4121.js": "/frosh_2t0_frontend/precache-manifest.5d53dcb0e33ff59d6c7cd77487ac4121.js",
     "service-worker.js": "/frosh_2t0_frontend/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.b34acd0f.chunk.css.map": "/frosh_2t0_frontend/static/css/main.b34acd0f.chunk.css.map",
-    "static/js/2.af10ba76.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js.LICENSE.txt",
+    "static/css/main.c4b0469e.chunk.css.map": "/frosh_2t0_frontend/static/css/main.c4b0469e.chunk.css.map",
+    "static/js/2.8944001d.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/frosh_2t0_frontend/static/media/1.2e54c9ef.svg",
     "static/media/10.svg": "/frosh_2t0_frontend/static/media/10.dadb2fd6.svg",
     "static/media/11.svg": "/frosh_2t0_frontend/static/media/11.ca49232b.svg",
@@ -26,7 +26,6 @@
     "static/media/8.svg": "/frosh_2t0_frontend/static/media/8.cd123598.svg",
     "static/media/9.svg": "/frosh_2t0_frontend/static/media/9.2578a802.svg",
     "static/media/index.css": "/frosh_2t0_frontend/static/media/Azonix.cdfe47b3.otf",
-    "static/media/blog.svg": "/frosh_2t0_frontend/static/media/blog.84d63387.svg",
     "static/media/bugbear.png": "/frosh_2t0_frontend/static/media/bugbear.f7f8984f.png",
     "static/media/down-arrow.svg": "/frosh_2t0_frontend/static/media/down-arrow.e514c922.svg",
     "static/media/facebook-brands.svg": "/frosh_2t0_frontend/static/media/facebook-brands.53757d93.svg",
@@ -36,18 +35,15 @@
     "static/media/landing-image.png": "/frosh_2t0_frontend/static/media/landing-image.6a6b77b0.png",
     "static/media/main_logo_transparent.png": "/frosh_2t0_frontend/static/media/main_logo_transparent.b1f4e966.png",
     "static/media/snapchat-brands.svg": "/frosh_2t0_frontend/static/media/snapchat-brands.792f4e7d.svg",
-    "static/media/snapchat.svg": "/frosh_2t0_frontend/static/media/snapchat.0fdb4aab.svg",
     "static/media/space.png": "/frosh_2t0_frontend/static/media/space.635d0eea.png",
     "static/media/tik-tok-brands.svg": "/frosh_2t0_frontend/static/media/tik-tok-brands.b3de492a.svg",
-    "static/media/twitter.svg": "/frosh_2t0_frontend/static/media/twitter.a1223de5.svg",
-    "static/media/youtube-brands.svg": "/frosh_2t0_frontend/static/media/youtube-brands.c80ca203.svg",
-    "static/media/youtube.svg": "/frosh_2t0_frontend/static/media/youtube.ed4ab1c1.svg"
+    "static/media/youtube-brands.svg": "/frosh_2t0_frontend/static/media/youtube-brands.c80ca203.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa172ed4.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.af10ba76.chunk.js",
-    "static/css/main.b34acd0f.chunk.css",
-    "static/js/main.07d4722e.chunk.js"
+    "static/js/2.8944001d.chunk.js",
+    "static/css/main.c4b0469e.chunk.css",
+    "static/js/main.a54544e3.chunk.js"
   ]
 }

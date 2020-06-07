@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07f24d7d5c044c1ed6090813e0ae257e",
+    "revision": "12ecfad3053c02fdf479f4c63291ff2a",
     "url": "/frosh_2t0_frontend/index.html"
   },
   {
-    "revision": "be6e528629e321f2ff41",
+    "revision": "8bea2d9d5d53a8174e04",
     "url": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "724fa7c23d99d5efbec8",
-    "url": "/frosh_2t0_frontend/static/css/main.b34acd0f.chunk.css"
+    "revision": "7140b4cba5dd65dad20a",
+    "url": "/frosh_2t0_frontend/static/css/main.c4b0469e.chunk.css"
   },
   {
-    "revision": "be6e528629e321f2ff41",
-    "url": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js"
+    "revision": "8bea2d9d5d53a8174e04",
+    "url": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/frosh_2t0_frontend/static/js/2.af10ba76.chunk.js.LICENSE.txt"
+    "url": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "724fa7c23d99d5efbec8",
-    "url": "/frosh_2t0_frontend/static/js/main.07d4722e.chunk.js"
+    "revision": "7140b4cba5dd65dad20a",
+    "url": "/frosh_2t0_frontend/static/js/main.a54544e3.chunk.js"
   },
   {
     "revision": "a40ecfd46ed230a471df",
@@ -100,10 +100,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frosh_2t0_frontend/static/media/Azonix.cdfe47b3.otf"
   },
   {
-    "revision": "84d633877b719f8d50722b2d822d2dd7",
-    "url": "/frosh_2t0_frontend/static/media/blog.84d63387.svg"
-  },
-  {
     "revision": "f7f8984f25ce581f4cf73fe709f8d79f",
     "url": "/frosh_2t0_frontend/static/media/bugbear.f7f8984f.png"
   },
@@ -140,10 +136,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frosh_2t0_frontend/static/media/snapchat-brands.792f4e7d.svg"
   },
   {
-    "revision": "0fdb4aabcdbd9bb61aa52753eb0c9836",
-    "url": "/frosh_2t0_frontend/static/media/snapchat.0fdb4aab.svg"
-  },
-  {
     "revision": "635d0eea340facff28e1b28b4ba77a18",
     "url": "/frosh_2t0_frontend/static/media/space.635d0eea.png"
   },
@@ -152,15 +144,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frosh_2t0_frontend/static/media/tik-tok-brands.b3de492a.svg"
   },
   {
-    "revision": "a1223de504180a12574a17a1f30c5a08",
-    "url": "/frosh_2t0_frontend/static/media/twitter.a1223de5.svg"
-  },
-  {
     "revision": "c80ca203c0f773a8502d85ae60f347ce",
     "url": "/frosh_2t0_frontend/static/media/youtube-brands.c80ca203.svg"
-  },
-  {
-    "revision": "ed4ab1c143e08475d765765ab9d6de74",
-    "url": "/frosh_2t0_frontend/static/media/youtube.ed4ab1c1.svg"
   }
 ]);
