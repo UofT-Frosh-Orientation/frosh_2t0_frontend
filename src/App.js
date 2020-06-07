@@ -11,6 +11,8 @@ import About from './containers/about';
 import Contact from './containers/contact';
 import Register from './containers/register';
 import Outreach from './containers/outreach';
+import Login from './containers/login';
+import MyAccount from './containers/myAccount';
 
 class App extends Component {
   render() { 
@@ -23,6 +25,8 @@ class App extends Component {
             <Route path="/contact" exact component={Contact}/>
             <Route path="/register" exact component={Register}/>
             <Route path="/outreach" exact component={Outreach}/>
+            <Route path="/login" exact component={Login}/>
+            <Route path="/account" exact component={MyAccount}/>
           </Switch>
         </div>
         <Footer/>

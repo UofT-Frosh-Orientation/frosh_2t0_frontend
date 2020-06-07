@@ -18,7 +18,8 @@ class NavbarComponent extends Component {
         aboutSelect = "navbarLink", 
         regSelect = "navbarLink", 
         contactSelect = "navbarLink", 
-        outreachSelect = "navbarLink";
+        outreachSelect = "navbarLink",
+        loginSelect = "navbarLink";
 
     switch (this.props.page) {
       case "home": homeSelect += " navbarSelected"; break;
@@ -26,6 +27,7 @@ class NavbarComponent extends Component {
       case "register": regSelect += " navbarSelected"; break;
       case "contact": contactSelect += " navbarSelected"; break;
       case "outreach": outreachSelect += " navbarSelected"; break;
+      case "loginSelect": loginSelect += " navbarSelected"; break;
       default: break;
     }
 
@@ -54,6 +56,7 @@ class NavbarComponent extends Component {
           <Dropdown.Item href="/nightlife">Nightlife</Dropdown.Item>
           <Dropdown.Item href="/mhw">Mental Health & Wellness</Dropdown.Item>
         </DropdownButton>
+        <div className={loginSelect}><NavItem><Link to="/login">Login</Link></NavItem></div>
         
       </Navbar.Collapse>
         <div className="navbarSocialsContainer">
