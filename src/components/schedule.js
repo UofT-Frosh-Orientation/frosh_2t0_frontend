@@ -48,7 +48,7 @@ class ScheduleContainer extends Component {
                 38 vh because 18*2 + 2 for space between
               </div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -59,7 +59,7 @@ class ScheduleContainer extends Component {
                 Event2
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -70,11 +70,11 @@ class ScheduleContainer extends Component {
                 Event3
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in 
                 </div>
@@ -87,11 +87,11 @@ class ScheduleContainer extends Component {
                 Event4
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
@@ -104,11 +104,11 @@ class ScheduleContainer extends Component {
                 Event5
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
@@ -127,11 +127,11 @@ class ScheduleContainer extends Component {
               </b></div>
               
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
@@ -144,11 +144,11 @@ class ScheduleContainer extends Component {
                 Event2
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
@@ -164,7 +164,7 @@ class ScheduleContainer extends Component {
                 Description 
               </div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -180,7 +180,7 @@ class ScheduleContainer extends Component {
                 Event1
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -194,7 +194,7 @@ class ScheduleContainer extends Component {
                 Description 
               </div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -208,7 +208,7 @@ class ScheduleContainer extends Component {
                 Description 
               </div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -226,7 +226,7 @@ class ScheduleContainer extends Component {
                 38 vh because 18*2 + 2 for space between
               </div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -237,7 +237,7 @@ class ScheduleContainer extends Component {
                 Event2
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -248,11 +248,11 @@ class ScheduleContainer extends Component {
                 Event3
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor enim iaculis, sagittis ex et, mattis felis. Praesent ullamcorper purus sed scelerisque bibendum. Quisque a consequat ex, eu sagittis ipsum. Vestibulum ante ipsum primis in 
                 </div>
@@ -265,11 +265,11 @@ class ScheduleContainer extends Component {
                 Event4
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
@@ -282,11 +282,11 @@ class ScheduleContainer extends Component {
                 Event5
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
               <div className="scheduleReadMore">
-                <img src={information}/>
+                <img src={information} alt="info"/>
                 <div className="scheduleReadMoreDescription">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
@@ -303,7 +303,7 @@ class ScheduleContainer extends Component {
                 Event1
               </b></div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -317,7 +317,7 @@ class ScheduleContainer extends Component {
                 Description 
               </div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>
@@ -331,7 +331,7 @@ class ScheduleContainer extends Component {
                 Description 
               </div>
               <div className="scheduleEventTime">
-                <img src={clock}/>
+                <img src={clock} alt="clock"/>
                 <b>1:00 - 2:00</b>
               </div>
             </div>

@@ -14,7 +14,7 @@ class ContactUsHeader extends Component {
         <div className="landingImage">
           <p>Contact Us</p>
           <div className='landingImageOverlay'></div>
-          <img src="https://photos.smugmug.com/1T9-2T0/Frosh-Week/Frosh-Events/Cheer-off/i-gGx2t7W/0/41239513/XL/_IGP8970-XL.jpg"></img>
+          <img src="https://photos.smugmug.com/1T9-2T0/Frosh-Week/Frosh-Events/Cheer-off/i-gGx2t7W/0/41239513/XL/_IGP8970-XL.jpg" alt="Contact Landing"></img>
         </div>
       </div>
     )
