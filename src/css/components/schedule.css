@@ -7,42 +7,54 @@
 }
 
 .scheduleContainer{
-    overflow: auto;
+    overflow: visible;
     white-space: nowrap;
+    overflow-y: hidden;
 }
 
 .scheduleTimeLabelContainer{
+    z-index:2;
     margin-top: 8vh;
     padding-top: 1vh;
     text-align: right;
     display: inline-block;
     position: absolute;
-    background-color: #ebebeb79;
+    background-color: #ebebeb96;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    backdrop-filter: blur(15px);
 }
-/*    backdrop-filter: blur(15px); */
-
 .scheduleTimeLabel{
     padding-bottom: 20vh;
     padding-left: 15px;
     padding-right: 50px;
 }
 
-.scheduleTimeLabel::after{
+.scheduleTimeLabelBlockContainer{
+    z-index:-1;
+    margin-top: 8.3vh;
+    padding-top: 1vh;
+    text-align: right;
+    position: absolute;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.scheduleTimeLabelBlock{
+    margin-bottom: 20vh;
+    z-index:-1;
     content: " ";
     display: block;
-    z-index: -2;
-    position: absolute;
+    position: relative;
     right: 0;
-    left: 65px;
     background: #ebebeb;
     width: 95vw;
     height: 0.3vh;
+    margin-top: -0.3vh;
     transform: translateY(2vh);
 }
 
 .scheduleContainerDay{
+    margin-bottom: 20vh;
     width: 250px;
     display: inline-block;
     text-align: center;
@@ -51,10 +63,10 @@
 
 .scheduleDayTitle{
     height: 12.1vh;
+    width: 250px;
     font-size: calc(18px + 1.3vw);
     color: black;
     font-family: AvenirLTStd-Black;
-    padding-bottom: 10px;
 }
 
 .scheduleEventContainer{
@@ -64,19 +76,17 @@
     background-color: #DCC7E3;
     text-align: left;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right:20px;
     border-radius: 15px;
-    z-index: -1;
 }
 
 .scheduleEventTitle{
-    padding-top: 3vh;
-    padding-bottom: 1vh;
+    padding-top: 20px;
     color:#6F1E88;
     font-family: AvenirLTStd-Roman;
-    font-size: calc(15px + 1.3vw);
+    font-size: calc(30px);
     white-space: normal;
-    line-height: calc(17px + 1.3vw);
+    line-height: calc(30px);
 }
 
 .scheduleEventDescription{
@@ -85,6 +95,9 @@
     white-space: normal;
     color:black;
     position: absolute;
+    padding-right: 20px;
+    overflow: hidden;
+    padding-top: 1vh;
 }
 
 .scheduleEventTime{
@@ -100,8 +113,67 @@
     margin-right: 8px;
 }
 
+.scheduleReadMore{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom:0;
+    padding-bottom: 14px;
+    padding-right: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.scheduleReadMore img{
+    width: 20px;
+    height:20px;;
+}
+
+.scheduleReadMoreDescription{
+    visibility: hidden;
+    width: 30vw;
+    background-color: #ebebeb;
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    transition-duration: 0.5s;
+    transform: opacity, width, transform,scale;
+    opacity:0;
+    white-space: normal;
+    transform: translateY(-10px) scale(0.93);
+    transform-origin: top left;
+    border-radius: 10px;
+    padding: 15px;
+    filter: drop-shadow(0px 0.2vw 0.4vw #0000003d);
+}
+
+.scheduleReadMore:hover .scheduleReadMoreDescription{
+    width: 30vw;
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 0.5s;
+    white-space: normal;
+    transform: translateY(0px) scale(1);
+    border-radius: 10px;
+}
+
 @media only screen and (min-width: 1250px) {
     .scheduleContainerDay{
         width: 20vw;
+    }
+    .scheduleDayTitle{
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .scheduleReadMore .scheduleReadMoreDescription{
+        left:-180px;
+        transform-origin: top right;
+        width: 200px;
+    }
+    .scheduleReadMore:hover .scheduleReadMoreDescription{
+        left:-180px;
+        width: 200px;
     }
 }

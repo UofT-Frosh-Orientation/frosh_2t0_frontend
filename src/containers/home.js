@@ -10,7 +10,7 @@ export default class Home extends Component {
     return (
       <div>
         <NavbarComponent page="home"/>
-        <div className="home">
+        <div className="home" style={{"overflow-x": "hidden"}}>
           <Slideshow/>
           <SlideshowOverlay/>
           <AnnouncementContainer/>
