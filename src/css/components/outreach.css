@@ -1,3 +1,110 @@
 .outreach{
     padding-top:0px;
 }
+
+.outreachEventContainer{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.outreachCalendarContainer{
+    border-radius: 13px;
+    border: 2px solid purple;
+    width: 100px;
+    height: 125px;
+    text-align: center;
+}
+
+.outreachCalendarContainerMonth{
+    top:0;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    background-color: purple;
+    border-radius: 11px;
+    font-family: AvenirLTStd-Black;
+}
+
+.outreachCalendarContainerDay{
+    color: purple;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: AvenirLTStd-Roman;
+}
+
+.outreachCalendarContainerTime{
+    color: gray;
+    font-size: 18px;
+    margin-top: -9px;
+    font-weight: 600;
+    font-family: AvenirLTStd-Roman;
+}
+
+.outreachInfoContainer{
+    width: 70%;
+    margin-left: 30px;
+}
+
+.outreachInfoHeader {
+    margin-top: -10px;
+    font-size: 40px;
+    color: purple;
+    font-weight: 500;
+}
+
+.outreachInfoDescription {
+    font-size: 15px;
+    color: black;
+}
+
+.outreachSignUpButton {
+    margin-top: 15px;
+    background-image: linear-gradient(to right, #FFC112,#FFC112, rgb(255, 226, 146), rgb(255, 233, 172), #FFC112, #FFC112);
+    background-size:400%;
+    text-align: center;
+    font-size: calc(16px);
+    color: #6F1E88;
+    border-radius: 1vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2.3%;
+    padding-right: 2.3%;
+    display: inline-block;
+    transition: background-position 0.8s, box-shadow 0.1s;
+    box-shadow: 0 0.2vw 0.5vw 0 #00000027;
+    cursor: pointer;
+    user-select: none;
+    font-family: AvenirLTStd-Black;
+}
+
+.outreachSignUpButton:hover{
+    background-position:100%;
+    transition-duration: 1s;
+}
+  
+.outreachSignUpButton:active{
+    transition: box-shadow 0.1s;
+    box-shadow: 0 0.2vw 0.5vw 0 #00000000;
+}
+
+.outreachEmptyHandbook{
+    display: block;
+    position: relative;
+    content:"";
+    height:600px;
+    background: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 767px) {
+    .outreachInfoContainer{
+        margin-left: 3%;
+    }
+}

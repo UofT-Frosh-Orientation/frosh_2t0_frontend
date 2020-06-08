@@ -41,37 +41,37 @@ class ScheduleContainer extends Component {
               Monday
             </div>
             <div className="scheduleEventContainer" style={{height:'38vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event1 long name
-              </b></div>
+              </div>
               <div className="scheduleEventDescription">
                 38 vh because 18*2 + 2 for space between
               </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event3
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -83,12 +83,12 @@ class ScheduleContainer extends Component {
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event4
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -100,12 +100,12 @@ class ScheduleContainer extends Component {
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event5
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -122,13 +122,13 @@ class ScheduleContainer extends Component {
               Tuesday
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event1
-              </b></div>
+              </div>
               
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -140,12 +140,12 @@ class ScheduleContainer extends Component {
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -157,15 +157,15 @@ class ScheduleContainer extends Component {
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'78vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventDescription">
                 Description 
               </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
           </div>
@@ -176,40 +176,40 @@ class ScheduleContainer extends Component {
               Wednesday
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event1
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'58vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventDescription">
                 Description 
               </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'38vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventDescription">
                 Description 
               </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
           </div>
@@ -219,37 +219,37 @@ class ScheduleContainer extends Component {
               Thursday
             </div>
             <div className="scheduleEventContainer" style={{height:'38vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event1 long name
-              </b></div>
+              </div>
               <div className="scheduleEventDescription">
                 38 vh because 18*2 + 2 for space between
               </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event3
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -261,12 +261,12 @@ class ScheduleContainer extends Component {
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event4
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -278,12 +278,12 @@ class ScheduleContainer extends Component {
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event5
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
               <div className="scheduleReadMore">
                 <img src={information} alt="info"/>
@@ -299,40 +299,40 @@ class ScheduleContainer extends Component {
               Friday
             </div>
             <div className="scheduleEventContainer" style={{height:'18vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event1
-              </b></div>
+              </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'58vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventDescription">
                 Description 
               </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
             <div className="scheduleBreak">
             </div>
             <div className="scheduleEventContainer" style={{height:'38vh'}}>
-              <div className="scheduleEventTitle"><b>
+              <div className="scheduleEventTitle">
                 Event2
-              </b></div>
+              </div>
               <div className="scheduleEventDescription">
                 Description 
               </div>
               <div className="scheduleEventTime">
                 <img src={clock} alt="clock"/>
-                <b>1:00 - 2:00</b>
+                1:00 - 2:00
               </div>
             </div>
           </div>

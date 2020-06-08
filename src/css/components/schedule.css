@@ -87,6 +87,7 @@
     font-size: calc(30px);
     white-space: normal;
     line-height: calc(30px);
+    font-weight: 600;
 }
 
 .scheduleEventDescription{
@@ -104,12 +105,14 @@
     position: absolute;
     bottom:0;
     padding-bottom: 14px;
+    font-weight: 700;
     color:#6F1E88;
 }
 
 .scheduleEventTime img{
     width: 20px;
     height:20px;
+    margin-bottom: 2px;
     margin-right: 8px;
 }
 
@@ -126,7 +129,9 @@
 
 .scheduleReadMore img{
     width: 20px;
-    height:20px;;
+    height:20px;
+    margin-bottom: 2px;
+    filter: invert(93%) sepia(100%) saturate(25%) hue-rotate(22deg) brightness(107%) contrast(106%); 
 }
 
 .scheduleReadMoreDescription{
