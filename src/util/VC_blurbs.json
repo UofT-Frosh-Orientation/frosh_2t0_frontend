@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Gabe",
+        "role": "Orientation Chair",
+        "img" : "../resources/icons/frosh-logo.png",
+        "description": "",
+        "favourite_part": ""
+    },
+    {
+        "name": "Hana",
+        "role": "VC Operations",
+        "img" : "../resources/icons/frosh-logo.png",
+        "description": "",
+        "favourite_part": ""
+    },
+    {
+        "name": "Aidan",
+        "role": "VC Logistics",
+        "img" : "../resources/icons/frosh-logo.png",
+        "description": "Hey!! I’m Aidan (EngSci 2T2 Aero), and I’m Vice-Chair Logistics for F!rosh Week 2T0. Along with my amazing co-VC Hanna, we supervise and plan most of the events that happen in F!rosh Week. We’re helped by our sub-committee chairs, who are each responsible for the details of one event. ",
+        "favourite_part": "One of the awesome events you’ll get to enjoy in September is Downtown Walkaround - which happens to be my favorite F!rosh event. Usually, everyone jumps in the fountain in Downtown Toronto during the event, but due to COVID-19, we’ve got some other surprises for you. Unfortunately, I can’t tell you what the surprise is going to be this year, but I can assure you that you’ll find out in September!"
+    },
+    {
+        "name": "Lisa",
+        "role": "VC Leadership",
+        "img" : "../resources/icons/frosh-logo.png",
+        "description": "Hi all! I’m Lisa (Computer Engineering 2T1 + PEY woot woot!!!) and I’m this year’s Vice-Chair Leadership. I work with leedurs over the summer to provide them with the training and tools they need to provide you with the best F!rosh Week experience. :D",
+        "favourite_part": " My favourite F!rosh Week event is definitely the cheer-off that happens at the end of day two. At that point, you’ve had enough time to learn the cheers and get to know your group and make friends so you’re really rooting for your group because they’re the best! The cheer off is basically all of the groups getting together and cheering for their group as loud as they can. You cheer off against all of the groups and it’s such a fun and chaotic event."
+    },
+    {
+        "name": "Puru",
+        "role": "VC Finance",
+        "img" : "../resources/icons/frosh-logo.png",
+        "description": "Hey everyone! My name is Purushoth (Chemical Engineering 2T2) and I am Vice-Chair Finance for F!rosh Week 2T0! My job is to manage the money for F!rosh Week and make sure all our subcoms have the money to make F!rosh Week is an unforgettable experience. I oversee our F!rosh Kits which will contain your hard hat and many other items which you will receive in the mail when you sign up, Sponsorship which help reduce your ticket price, and our Global Engineering event subcommittee.",
+        "favourite_part": "My favourite part of F!rosh Week is Downtown Walkaround, cause what isn’t more fun than marching the streets of downtown with 1000 other people shouting cheers."
+    },
+    {
+        "name": "Dana",
+        "role": "VC Marketing",
+        "img" : "../resources/icons/frosh-logo.png",
+        "description": "My name is Dana (Electrical Engineering 2T0 + PEY), and I am Vice-Chair Marketing for F!rosh Week 2T0! My job is to get the word about F!rosh Week out to you and ensure that you are registering for the best week of your life (no seriously, it’s gonna be awesome). I oversee all the marketing initiatives for F!rosh Week like social media, photography, videography, outreach, graphics, and even the web team that put together this lovely website for you.",
+        "favourite_part": "My favourite part of F!rosh Week is hands down Matriculation because this is the first time you get to see every single first year engineering student (your future friends!) and you get to take the infamous hardhat oath."
+    }
+]
