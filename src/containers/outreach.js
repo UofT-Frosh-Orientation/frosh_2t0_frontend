@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OutreachEvents from '../components/outreachEvents';
+import {OutreachHeader,OutreachEvents,OutreachHandbook} from '../components/outreach';
 import NavbarComponent from '../components/navbar';
 
 export default class Outreach extends Component {
@@ -8,7 +8,9 @@ export default class Outreach extends Component {
       <div>
         <NavbarComponent page="outreach"/>
         <div className="outreach">
+          <OutreachHeader/>
           <OutreachEvents/>
+          <OutreachHandbook/>
         </div>
       </div>
     )

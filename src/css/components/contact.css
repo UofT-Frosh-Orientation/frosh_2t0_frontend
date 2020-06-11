@@ -76,4 +76,14 @@
         width: 15vw;
         height: 15vw;
     }
+
+    .emailContactHeader{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .emailContact{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 }
