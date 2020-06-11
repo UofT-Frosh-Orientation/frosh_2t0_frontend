@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/frosh_2t0_frontend/static/css/main.c4b0469e.chunk.css",
-    "main.js": "/frosh_2t0_frontend/static/js/main.a54544e3.chunk.js",
-    "main.js.map": "/frosh_2t0_frontend/static/js/main.a54544e3.chunk.js.map",
+    "main.css": "/frosh_2t0_frontend/static/css/main.4c1e02f0.chunk.css",
+    "main.js": "/frosh_2t0_frontend/static/js/main.6280ee4f.chunk.js",
+    "main.js.map": "/frosh_2t0_frontend/static/js/main.6280ee4f.chunk.js.map",
     "runtime-main.js": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js",
     "runtime-main.js.map": "/frosh_2t0_frontend/static/js/runtime-main.aa172ed4.js.map",
     "static/css/2.af3c1da9.chunk.css": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8944001d.chunk.js": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js",
-    "static/js/2.8944001d.chunk.js.map": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js.map",
+    "static/js/2.a14ec697.chunk.js": "/frosh_2t0_frontend/static/js/2.a14ec697.chunk.js",
+    "static/js/2.a14ec697.chunk.js.map": "/frosh_2t0_frontend/static/js/2.a14ec697.chunk.js.map",
     "index.html": "/frosh_2t0_frontend/index.html",
-    "precache-manifest.5d53dcb0e33ff59d6c7cd77487ac4121.js": "/frosh_2t0_frontend/precache-manifest.5d53dcb0e33ff59d6c7cd77487ac4121.js",
+    "precache-manifest.013118c8d742dc549ef50df5ce38f3b9.js": "/frosh_2t0_frontend/precache-manifest.013118c8d742dc549ef50df5ce38f3b9.js",
     "service-worker.js": "/frosh_2t0_frontend/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/frosh_2t0_frontend/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c4b0469e.chunk.css.map": "/frosh_2t0_frontend/static/css/main.c4b0469e.chunk.css.map",
-    "static/js/2.8944001d.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.8944001d.chunk.js.LICENSE.txt",
+    "static/css/main.4c1e02f0.chunk.css.map": "/frosh_2t0_frontend/static/css/main.4c1e02f0.chunk.css.map",
+    "static/js/2.a14ec697.chunk.js.LICENSE.txt": "/frosh_2t0_frontend/static/js/2.a14ec697.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/frosh_2t0_frontend/static/media/1.2e54c9ef.svg",
     "static/media/10.svg": "/frosh_2t0_frontend/static/media/10.dadb2fd6.svg",
     "static/media/11.svg": "/frosh_2t0_frontend/static/media/11.ca49232b.svg",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.aa172ed4.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8944001d.chunk.js",
-    "static/css/main.c4b0469e.chunk.css",
-    "static/js/main.a54544e3.chunk.js"
+    "static/js/2.a14ec697.chunk.js",
+    "static/css/main.4c1e02f0.chunk.css",
+    "static/js/main.6280ee4f.chunk.js"
   ]
 }
